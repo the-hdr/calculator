@@ -9,6 +9,8 @@ function extendExpression (event)
 {
     let buttonId = event.target.id;
     let buttonClass = event.target.className;
+
+    //alert ("ID: " + buttonId);
 }
 
 buttons.forEach (function (button) {
