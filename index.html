@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title> Calculator </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <input id="userInput" type="text">
-    <button id="evaluation-button"> Evaluate </button>
-    <div id="result"> Result: 0 </div>
+    <div id="main-container">
+        <div id="calculator-body">
+            <div id="calculator-screen">
+                <div id="current-result"></div>
+                <div id="previous-result"></div>
+            </div>
 
-    <script src="script.js"></script>
+            <div id="calculator-buttons">
+                <div class="button">1</div>
+                <div class="button">2</div>
+                <div class="button">3</div>
+                <div class="button row-end-button">+</div>
+
+                <div class="button">4</div>
+                <div class="button">5</div>
+                <div class="button">6</div>
+                <div class="button row-end-button">-</div>
+
+                <div class="button">7</div>
+                <div class="button">8</div>
+                <div class="button">9</div>
+                <div class="button row-end-button">x</div>
+
+                <div class="button">.</div>
+                <div class="button">0</div>
+                <div id="equal-sign" class="button">=</div>
+                <div class="button row-end-button">/</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
