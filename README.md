@@ -1,2 +1,2 @@
 # calculator
-A calculator made in HTML and JS. epochxhift_4
+A calculator made in HTML, CSS and JS. epochxhift_4
